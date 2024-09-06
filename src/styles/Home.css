@@ -1,0 +1,45 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-content {
+    max-width: 800px;
+  }
+  
+  .home-logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-description {
+    background-color: #f4f4f4;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 765px) {
+    .home-logo{
+      margin-top: 100px;
+    }
+    .home-title {
+      font-size: 1.5rem;
+    }
+  
+    .home-description {
+      font-size: 0.9rem;
+      padding: 0 5px;
+    }
+  }

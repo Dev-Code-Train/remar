@@ -1,4 +1,3 @@
-// src/components/WhatsAppWidget.jsx
 import React, { useState } from 'react';
 import { FaWhatsapp, FaChevronDown, FaChevronUp } from 'react-icons/fa6';
 import '../styles/WhatsAppWidget.css';
@@ -21,7 +20,7 @@ export const WhatsAppWidget = () => {
     <div className="whatsapp-widget">
       <div className="whatsapp-toggle" onClick={toggleWidget}>
         <FaWhatsapp className="whatsapp-icon" />
-        {isOpen ? <FaChevronUp /> : <FaChevronDown />}
+        {isOpen ? <FaChevronUp className="whatsapp-row"/> : <FaChevronDown className="whatsapp-row"/>}
       </div>
       {isOpen && (
         <div className="whatsapp-contacts">
