@@ -4,6 +4,7 @@ import { Meet } from './pages/Meet';
 import { Products } from './pages/Products';
 import { Localitation } from './pages/Localitation';
 import { WhatsAppWidget } from './components/WhatsAppWidget';
+import { FacebookWidget } from './components/FacebookWidget';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <section id="Meet"> <Meet/> </section>
       <section id="Products"> <Products/> </section>
       <section id="Localitation"> <Localitation/> </section>
+      <FacebookWidget/>
       <WhatsAppWidget/>
     </>
   );
