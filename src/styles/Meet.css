@@ -1,0 +1,49 @@
+.meet-section {
+    margin-top: -250px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .meet-title {
+    padding-top: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .meet-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .meet-text {
+    max-width: 1000px; /* Aumenta el ancho máximo */
+    width: 90%;        /* Ocupa el 90% del ancho de la pantalla */
+    background-color: #fff;
+    padding: 30px;      /* Aumenta el padding */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;  /* Aumenta ligeramente el tamaño de fuente */
+  }
+  
+  p {
+    background-color: #fff;
+  }
+  
+  /* Estilos responsive */
+  @media (max-width: 768px) {
+    .meet-section{
+      margin-top: -150px;
+    }
+    .meet-title {
+      font-size: 2rem;
+    }
+  
+    .meet-text {
+      font-size: 1.1rem;
+      padding: 20px;
+      max-width: 100%;
+    }
+  }

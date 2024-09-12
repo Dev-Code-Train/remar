@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #252525BF;
+}
+html, body {
+  overflow-x: hidden;
+}
