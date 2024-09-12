@@ -58,24 +58,21 @@
 
 @media (max-width: 768px) {
   .whatsapp-widget {
-    bottom: 10px;  /* Ajusta la posición para pantallas pequeñas */
-    right: 10px;   /* Ajusta la posición para pantallas pequeñas */
-    z-index: 1100; /* Asegúrate de que esté por encima del Header */
+    bottom: 10px; 
+    right: 10px;  
+    z-index: 1100; 
   }
 
   .whatsapp-toggle {
-    padding: 10px;  /* Ajusta el tamaño del botón en pantallas pequeñas */
+    padding: 10px; 
   }
 
   .whatsapp-icon {
-    font-size: 24px; /* Ajusta el tamaño del icono en pantallas pequeñas */
+    font-size: 24px;
   }
 
   .whatsapp-contacts {
-    padding: 5px;    /* Ajusta el padding de la lista de contactos */
-  }
-
-  .whatsapp-contact {
-    font-size: 14px; /* Ajusta el tamaño del texto en los enlaces */
+    padding: 5px; 
+    font-size: 14px;    
   }
 }

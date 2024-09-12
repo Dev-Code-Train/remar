@@ -39,7 +39,7 @@
   }
   
   .facebook-row {
-    font-size: 20px;
+
     background-color: #feffff;
   }
   
@@ -72,12 +72,9 @@
       font-size: 24px;
     }
   
-    .facebook-pages {
-      padding: 5px; 
-    }
-  
     .facebook-page {
-      font-size: 14px; /* Ajusta el tamaño del texto en los enlaces */
+      padding: 5px; 
+      font-size: 14px;
     }
   }
   

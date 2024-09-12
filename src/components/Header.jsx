@@ -40,7 +40,7 @@ export const Header = () => {
           Productos
         </Link>
         <Link to="Localitation" smooth={true} duration={500} className='header-link'>
-          Donde estamos
+          Tiendas
         </Link>
       </nav>
     </header>

@@ -31,6 +31,9 @@ export const Meet = () => {
         <div className="meet-text" data-aos="fade-left">
           <p>Además, disfruta de ofertas exclusivas en nuestra tienda. ¡Visítanos y llévate los mejores muebles para transformar tu hogar!</p>
         </div>
+        <div className="meet-text" data-aos="fade-right">
+          <p>¡No solo vendemos muebles! También ofrecemos servicios de portes y mudanzas para que tu experiencia de compra sea completa. ¡Confía en nosotros para transportar tus muebles de forma segura y eficiente!</p>
+        </div>
       </div>
     </section>
   );

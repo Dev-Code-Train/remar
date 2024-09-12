@@ -12,7 +12,7 @@ export const Localitation = () => {
 
   return (
     <div className="locations-container">
-      <h2>Donde Estamos</h2>
+      <h2>Tiendas</h2>
 
       <div className="location" data-aos="zoom-in">
         <p>Avenida de la Industria, 43-45 - 41007 Poligono de La Carretera Amarilla (Sevilla)</p>
