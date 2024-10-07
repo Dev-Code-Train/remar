@@ -15,6 +15,7 @@
   height: 120px; /* Altura por defecto */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  cursor: pointer;
   overflow: hidden; /* Para evitar el desbordamiento de elementos internos */
 }
 

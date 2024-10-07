@@ -14,6 +14,7 @@ export const WhatsAppWidget = () => {
     { number: '34609292680', label: 'San Jeronimo' },
     { number: '34680558220', label: 'Torreblanca' },
     { number: '34620532374', label: 'Calle Tarragona' },
+    { number: '34680558274', label: 'Cerro' },
   ];
 
   return (

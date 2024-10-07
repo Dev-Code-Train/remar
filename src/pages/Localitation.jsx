@@ -41,7 +41,7 @@ export const Localitation = () => {
       </div>
 
       <div className="location" data-aos="zoom-in">
-        <p>Calle Tarragona, 78 41006 Sevilla</p>
+        <p>Calle Tarragona, 78 - 41006 Sevilla</p>
         <a href="https://wa.me/34620532374" className="phone-link">
           <FaWhatsapp className="whatsapp-icon" />
           620 532 374
@@ -62,6 +62,17 @@ export const Localitation = () => {
           609 292 680
         </a>
         <a href="https://www.google.es/maps/place/Rastro+Remar/@37.4239101,-5.9828591,20z/data=!4m15!1m8!3m7!1s0xd12696005931d2d:0x14ff427c56bac7bd!2sCalle+Medina+y+Galnares,+75,+Norte,+41015+Sevilla!3b1!8m2!3d37.4239341!4d-5.9827733!16s%2Fg%2F11cs78f2s4!3m5!1s0xd12696005903b79:0xb927bbc326fdbc71!8m2!3d37.4241048!4d-5.9826661!16s%2Fg%2F11sq13nkng?entry=ttu&g_ep=EgoyMDI0MDkwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="phone-link">
+          <FaMapMarkerAlt className="map-icon" /> Ver en Google Maps
+        </a>
+      </div>
+
+      <div className="location" data-aos="zoom-in">
+        <p>Calle Ocho de Marzo, 41 - 41006 Sevilla</p>
+        <a href="https://wa.me/34680558274" className="phone-link">
+          <FaWhatsapp className="whatsapp-icon" />
+          680 558 274
+        </a>
+        <a href="https://maps.app.goo.gl/UESdSQc1EobcnruZ9" target="_blank" rel="noopener noreferrer" className="phone-link">
           <FaMapMarkerAlt className="map-icon" /> Ver en Google Maps
         </a>
       </div>

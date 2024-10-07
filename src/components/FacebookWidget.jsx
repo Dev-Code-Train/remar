@@ -14,6 +14,7 @@ export const FacebookWidget = () => {
     { url: 'https://www.facebook.com/profile.php?id=100076178700176', label: 'San Jeronimo' },
     { url: 'https://www.facebook.com/profile.php?id=61562854503676', label: 'Torreblanca' },
     { url: 'https://www.facebook.com/profile.php?id=100064125575567', label: 'Calle Tarragona' },
+    { url: 'https://www.facebook.com/profile.php?id=61566935723514&mibextid=ZbWKwL', label: 'Cerro' },
   ];
 
   return (
